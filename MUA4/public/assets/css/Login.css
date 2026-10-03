@@ -1,0 +1,241 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Jost:wght@300;400;500&display=swap");
+
+:root {
+  --nude-light: #f8daeb;
+  --nude-main: #e7d3c5;
+  --nude-dark: #b08968;
+  --brown-text: #5c4033;
+  --white: #ffffff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: linear-gradient(135deg, var(--nude-light), var(--nude-main));
+
+  font-family: "Jost", sans-serif;
+}
+
+.register-container {
+  width: 650px;
+
+  background: rgba(255, 255, 255, 0.92);
+
+  padding: 45px;
+
+  border-radius: 28px;
+
+  backdrop-filter: blur(10px);
+
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+h1 {
+  text-align: center;
+
+  font-size: 48px;
+
+  color: var(--brown-text);
+
+  font-family: "Cormorant Garamond", serif;
+
+  margin-bottom: 8px;
+}
+
+.subtitle {
+  text-align: center;
+
+  color: #8d6e63;
+
+  margin-bottom: 35px;
+
+  font-size: 15px;
+}
+
+.input-group {
+  margin-bottom: 22px;
+}
+
+.input-group h3 {
+  font-size: 14px;
+
+  color: var(--brown-text);
+
+  margin-bottom: 10px;
+
+  font-weight: 500;
+}
+
+.input-group input {
+  width: 100%;
+
+  padding: 14px 16px;
+
+  border: 1px solid #e0d2c7;
+
+  border-radius: 14px;
+
+  outline: none;
+
+  font-size: 14px;
+
+  background-color: #fffaf7;
+
+  transition: 0.3s;
+}
+
+.input-group input:focus {
+  border-color: var(--nude-dark);
+
+  box-shadow: 0 0 0 3px rgba(176, 137, 104, 0.15);
+}
+
+.role-wrapper {
+  display: flex;
+
+  gap: 18px;
+
+  margin-top: 14px;
+}
+
+.role-card {
+  flex: 1;
+
+  padding: 24px 20px;
+
+  border-radius: 22px;
+
+  color: white;
+
+  transition: 0.3s;
+
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.role-card:hover {
+  transform: translateY(-5px);
+}
+
+.role-card h2 {
+  font-size: 28px;
+
+  margin-bottom: 10px;
+
+  font-family: "Cormorant Garamond", serif;
+}
+
+.role-card p {
+  font-size: 14px;
+
+  line-height: 1.6;
+
+  margin-bottom: 18px;
+}
+
+.role-card a {
+  display: inline-block;
+
+  padding: 10px 20px;
+
+  background: white;
+
+  border-radius: 12px;
+
+  text-decoration: none;
+
+  font-size: 14px;
+
+  font-weight: 500;
+}
+
+.admin {
+  background: linear-gradient(135deg, #9c7b73, #b08968);
+}
+
+.admin a {
+  color: #9c7b73;
+}
+
+.customer {
+  background: linear-gradient(135deg, #d8a7a7, #c98f8f);
+}
+
+.customer a {
+  color: #b07171;
+}
+
+button {
+  width: 100%;
+
+  padding: 15px;
+
+  border: none;
+
+  border-radius: 16px;
+
+  background: var(--nude-dark);
+
+  color: white;
+
+  font-size: 15px;
+
+  font-weight: 500;
+
+  cursor: pointer;
+
+  margin-top: 12px;
+
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #9c6f52;
+
+  transform: translateY(-2px);
+}
+
+.extra {
+  margin-top: 24px;
+
+  text-align: center;
+
+  font-size: 14px;
+
+  color: #7b5e57;
+}
+
+.extra a {
+  color: var(--nude-dark);
+
+  text-decoration: none;
+
+  font-weight: 500;
+}
+
+.extra a:hover {
+  text-decoration: underline;
+}
+
+.login-container {
+  width: 380px;
+
+  background: rgba(255, 255, 255, 0.92);
+
+  padding: 40px;
+
+  border-radius: 28px;
+
+  backdrop-filter: blur(10px);
+
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
